@@ -1,4 +1,4 @@
- var pauser = function(){
+var pauser = function(){
 	$('.clickTd').css('pointer-events','none')
   	setTimeout(function(){
             $('.clickTd').css('pointer-events','auto')
